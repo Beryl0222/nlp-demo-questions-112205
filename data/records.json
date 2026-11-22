@@ -1,0 +1,170 @@
+{
+  "projects": [
+    {
+      "id": "P1",
+      "name": "禾光热柜",
+      "pitch": "有一家签试用协议，另外两家是拟合作；一家只允许会后台下交流。"
+    },
+    {
+      "id": "P2",
+      "name": "磐鹭字幕",
+      "pitch": "完成过馆内演练，医院的演练要下个月才安排。"
+    },
+    {
+      "id": "P3",
+      "name": "芒芽云棚",
+      "pitch": "替代钢制的样件准备好了，量产还没有报价。"
+    }
+  ],
+  "windows": [
+    {
+      "id": "W1",
+      "projects": [
+        "P1",
+        "P2",
+        "P3"
+      ],
+      "total_seconds": 85,
+      "categories": {
+        "客户核实": 34,
+        "实际效果": 36,
+        "量产": 15
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "Q1",
+      "project": "P1",
+      "received": 1,
+      "category": "客户核实",
+      "sharing": "现场",
+      "text": "哪一家已经付费？试用的不要算。"
+    },
+    {
+      "id": "Q2",
+      "project": "P1",
+      "received": 2,
+      "category": "客户核实",
+      "sharing": "匿名现场",
+      "text": "试用协议是馆内还是商铺用的，有没有实际续订？"
+    },
+    {
+      "id": "Q3",
+      "project": "P1",
+      "received": 3,
+      "category": "客户核实",
+      "sharing": "许可转交",
+      "text": "红渠美术馆的项目到底付过钱没有？只在会后联系我。"
+    },
+    {
+      "id": "Q4",
+      "project": "P1",
+      "received": 4,
+      "category": "实际效果",
+      "sharing": "现场",
+      "text": "订单先不问，棚外空间的柜门也能在五度下用吗？"
+    },
+    {
+      "id": "Q5",
+      "project": "P2",
+      "received": 5,
+      "category": "实际效果",
+      "sharing": "现场",
+      "text": "医院那场过去了吗，双语字幕有没有经过患者看屏确认？"
+    },
+    {
+      "id": "Q6",
+      "project": "P2",
+      "received": 6,
+      "category": "实际效果",
+      "sharing": "仅主持人",
+      "text": "据说东津门诊看过，想问视线范围内能否读完两行。不能说是东津。"
+    },
+    {
+      "id": "Q7",
+      "project": "P3",
+      "received": 7,
+      "category": "量产",
+      "sharing": "现场",
+      "text": "量产是否能按一百件报价，还是只有手板已做？"
+    },
+    {
+      "id": "Q8",
+      "project": "P1",
+      "received": 8,
+      "category": "客户核实",
+      "sharing": "匿名现场",
+      "text": "有续订的试用协议是在商铺吗？续订有没有付款？"
+    },
+    {
+      "id": "Q9",
+      "project": "P2",
+      "received": 9,
+      "category": "实际效果",
+      "sharing": "匿名现场",
+      "text": "请别把展馆屏幕当医院屏幕。医院试过以后确认了哪些语言？"
+    }
+  ],
+  "drafts": [
+    {
+      "id": "D1",
+      "project": "P1",
+      "seconds": 13,
+      "text": "能说下哪类场景已有支付客户，和已经续订的试用是同一家吗？"
+    },
+    {
+      "id": "D2",
+      "project": "P1",
+      "seconds": 9,
+      "text": "已经签试用的是什么场景？"
+    },
+    {
+      "id": "D3",
+      "project": "P2",
+      "seconds": 20,
+      "text": "医院里有没有正式测过双语字幕？如果没有，展馆演练具体观察哪种读屏表现？"
+    },
+    {
+      "id": "D4",
+      "project": "P3",
+      "seconds": 11,
+      "text": "一百件能正式报价吗，还是只能交样件？"
+    },
+    {
+      "id": "D5",
+      "project": "P2",
+      "seconds": 8,
+      "text": "医院那次演练实际上进行了吗？"
+    }
+  ],
+  "readback": [
+    {
+      "id": "R1",
+      "at": 1,
+      "project": "P1",
+      "role": "主持人",
+      "draft": "D1",
+      "seconds": 8,
+      "text": "能说说现在有哪个客户吗？"
+    },
+    {
+      "id": "R2",
+      "at": 2,
+      "project": "P1",
+      "role": "团队",
+      "draft": null,
+      "seconds": 9,
+      "text": "有一家商铺还在试用，没说付费。那家馆是下周的。"
+    },
+    {
+      "id": "R3",
+      "at": 3,
+      "project": "P2",
+      "role": "团队",
+      "draft": null,
+      "seconds": 7,
+      "text": "展馆练过，医院还没安排进场。"
+    }
+  ]
+}
